@@ -1,0 +1,8 @@
+<launch>
+                <node pkg="kobuki" type="kobuki" name="kobuki" ns="kobuki_n">
+                </node>
+                <include file="$(find kobuki_node)/launch/minimal.launch"/>
+                 <include file="$(find kobuki_keyop)/launch/safe_keyop.launch"/>
+
+</launch>
+
