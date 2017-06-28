@@ -1,5 +1,5 @@
 # Mobile robot platform using kobuki to test algorithms for Pursuit-evasion games
-===
+
 Description of the setup used to test the pursuit-evasion games algorithms.
 
 Hardware  requirements
