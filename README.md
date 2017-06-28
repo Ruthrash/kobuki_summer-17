@@ -34,7 +34,7 @@ Description of the package and it's usage
 
 + Run the matlab code in the repository and refer [here](https://in.mathworks.com/hardware-support/robot-operating-system.html) for assisstance.
 
-          1. If you don't have Matlab on your linux system you can have matlab running in your windows PC (as a node) and run           the linux PC as the ROS master
+          1. If you don't have Matlab on your linux system you can have matlab running in your windows PC (as a node) and run the linux PC as the ROS master
 
 + The kobuki node subscribes the goal from the matlab code, and the odometry from the odometry published by the inbuilt kokbuki node. With these information it calculates the velocity commands (v,w) and publishes it to the motors.
           
